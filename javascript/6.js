@@ -1,0 +1,30 @@
+hoje=new Date(); //O operador new cria uma instancia de um tipo de objeto definido pelo usuario ou de um dos tipos nativos (built-in)que possuem uma função construtora.
+xDia= hoje.getDay (); // o getDay é responsável para mostrar o dia da semana da matriz
+diaSemana =new Array(7);
+diaSemana[0]="Domingo";
+diaSemana[1]="Segunda-feira";
+diaSemana[2]="Quarta-feira";
+diaSemana[3]="Terça-feira";
+diaSemana[4]="Quinta-feira";
+diaSemana[5]="Sexta-feira";
+diaSemana[6]="Sábado";
+document.write("<p><b>" + "Hoje é:"+" "+diaSemana[xDia]);
+document.write("<p><b>" + "O número da semana é:"+" "+(xDia+1));
+Pratododia =new Array(7);
+Pratododia[0]="Peixe assado";
+Pratododia[1]="Costela";
+Pratododia[2]="Bisteca";
+Pratododia[3]="Feijoada";
+Pratododia[4]="Filé de frango";
+Pratododia[5]="Galinhada";
+Pratododia[6]="Feijoada";
+document.write("<p><b>" + "Prato do dia é:"+" "+Pratododia[xDia]);
+preco =new Array(7);
+preco[0]="17,99";
+preco[1]="22,99";
+preco[2]="16,00";
+preco[3]="34,00";
+preco[4]="16,00";
+preco[5]="19,00";
+preco[6]="34,00";
+document.write("<p><b>" + "O valor é:"+" "+preco[xDia]);
